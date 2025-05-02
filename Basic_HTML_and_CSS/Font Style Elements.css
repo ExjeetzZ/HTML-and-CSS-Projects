@@ -1,0 +1,23 @@
+<style>
+	.font_1 {
+		background-color: black;
+		color:pink;
+		text-decoration: underline;
+		font-weight: bold;
+		font-size: large;
+		}
+	.font_2 {
+		background-color: white;
+		color:black;
+		text-decoration: overline;
+		font-weight:550;
+		font-size: medium;
+		}
+	.font_3 {
+		background-color: black;
+		color:yellow;
+		text-decoration: underline overline;
+		font-weight: normal;
+		font-size: medium;
+		}
+</style>

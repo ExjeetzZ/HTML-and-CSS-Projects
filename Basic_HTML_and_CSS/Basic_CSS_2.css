@@ -1,0 +1,34 @@
+.normal_1 {
+background-color:white;
+color: black;
+text-decoration: none;
+font-size: 20px;
+font-size: regular;
+font-style: normal; 
+text-align: center;
+padding-left: 200px;
+padding-right: 200px;
+margin-top: 3em;
+margin-bottom: 2em;
+}
+
+h3 {
+text-align: center;
+font-weight: bold;
+text-decoration: underline wavy;
+font-size: 40px;
+text-shadow: 3px 1px pink; 
+}
+
+
+p {
+background-color:pink;
+color: green;
+text-decoration: underline overline;
+font-weight: bold;
+font-size: large;
+font-style: italic; 
+text-align: center;
+margin-top: 15em;
+}
+	

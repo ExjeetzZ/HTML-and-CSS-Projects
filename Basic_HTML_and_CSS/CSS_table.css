@@ -1,0 +1,20 @@
+table {
+	table-layout: fixed;
+	border: 2px solid silver;
+}
+td:hover {
+	background-color: yellow;
+	color: black;
+
+}
+tr, th {
+	background-color: black;
+	color: cornsilk;
+	padding: 3px;
+	width: 30%;
+}
+tr, td {
+	background-color: darkgreen;
+	color: white;
+	padding: 3px;
+}
