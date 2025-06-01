@@ -3,15 +3,9 @@
 	<head>
 		<title> Classic Toyotas from the 2000s </title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animations.css">
 		<style>
-		.nav {
-			font-family:Courier New;
-			font-size: 50px; 
-			text-decoration:none; 
-			position: relative; 
-			left: 95px; 
-			top: 10px;
-		}
 		@font-face {
 			font-family: "Gallery";
 			src: url("./font/Gallery.otf");
@@ -20,6 +14,8 @@
 			font-family: "Toyota";
 			src: url("./font/Toyota.otf");
 			}
+
+		
 		</style>
 			
 
@@ -28,32 +24,38 @@
 	
 	<body>
 	<!-- Navigation -->
-		<div>	
-				<a class="nav" href="#home" id="link"> <h1 style="text-align: center;">Home&nbsp;&nbsp;&nbsp;</a>
-				<a class="nav" href="#gallery" id="link" style="font-family: Gallery;" >Gallery</a>
-				<a class="nav" href="#contact" id="link">&nbsp;&nbsp;&nbsp;Contact us </h1> </a>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">	
+					<a href="#home"> <li> HOME </li> </a>
+					<a href="#gallery"> <li> GALLERY </li> </a>
+					<a href="#contact"> <li> CONTACT US </li> </a>
+				</ul>
+			</div>
 		</div>
 	<!-- Navigation END -->
 		
 	<!-- Home -->
 		<div id="home">
-			<div>
-				<div>
-					<span> <h2 style= "font-family: Toyota; font-size: 45px; text-align: center; position: relative; padding-top: 40px; padding-bottom: 40px; top: 20px; border:inset 10px grey; border-width: 20px 16px grey 0px;">About Toyota</h2>
-					<p style="font-size: 20px; text-align: center; position: relative; padding-top: 30px; top:-17.5px; border: solid 10px grey; border-width: 0px 50px 0px;"> "Toyota Motor Corporation is a Japanese multinational automotive manufacturer headquartered in Toyota City, Aichi, Japan.<br>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">&nbsp; About Toyota &nbsp;</span>
+				</div>
+				<div class="head-sub-main">
+					<p> "Toyota Motor Corporation is a Japanese multinational automotive manufacturer headquartered in Toyota City, Aichi, Japan.
 					It was founded by Kiichiro Toyoda and incorporated on August 28, 1937.<br>
 					Toyota is the largest automobile manufacturer in the world, producing about 10 million vehicles per year."</p>
-					<p style="font-size: 20px; text-align: center; position: relative; padding-top: 20px; top:-40px; border: solid 10px grey; border-width: 0px 50px 0px;">"The company was founded as a spinoff of Toyota Industries, a machine maker started by Sakichi Toyoda, Kiichiro's father. <br>
-					Both companies are now part of the Toyota Group, one of the largest conglomerates in the world.<br>
+					<p>"The company was founded as a spinoff of Toyota Industries, a machine maker started by Sakichi Toyoda, Kiichiro's father.
+					Both companies are now part of the Toyota Group, one of the largest conglomerates in the world.
 					While still a department of Toyota Industries, the company developed its first product, the Type A engine, in 1934 and its first passenger car in 1936, the Toyota AA." </p>
-					<p style="font-size: 20px; text-align: center; position: relative; padding-top: 30px; top:-60px; border: solid 10px grey; border-width: 0px 50px 0px;"> "After World War II, Toyota benefited from Japan's alliance with the United States to learn from American automakers and other companies, <br>
-					which gave rise to The Toyota Way (a management philosophy) and the Toyota Production System (a lean manufacturing practice) <br>
-					that transformed the small company into a leader in the industry and was the subject of many academic studies." </p> <br>
-					<p style="font-size: 20px; text-align: center; position: relative; top:-120px; padding-top: 30px; padding-bottom: 80px; border:solid 10px grey; border-width: 0px 50px 0px;"> "In the 1960s, Toyota took advantage of the rapidly growing Japanese economy to sell cars to a growing middle-class,<br>
+					<p> "After World War II, Toyota benefited from Japan's alliance with the United States to learn from American automakers and other companies,
+					which gave rise to The Toyota Way (a management philosophy) and the Toyota Production System (a lean manufacturing practice)
+					that transformed the small company into a leader in the industry and was the subject of many academic studies." </p>
+					<p> "In the 1960s, Toyota took advantage of the rapidly growing Japanese economy to sell cars to a growing middle-class,<br>
 					leading to the development of the Toyota Corolla, which became the world's all-time best-selling automobile. <br>
-					The booming economy also funded an international expansion that allowed Toyota to grow into one of the largest automakers in the world, <br>
-					the largest company in Japan and the ninth-largest company in the world by revenue, as of December 2020. <br> 
-					Toyota was the world's first automobile manufacturer to produce more than 10 million vehicles per year, <br>
+					The booming economy also funded an international expansion that allowed Toyota to grow into one of the largest automakers in the world,
+					the largest company in Japan and the ninth-largest company in the world by revenue, as of December 2020.
+					Toyota was the world's first automobile manufacturer to produce more than 10 million vehicles per year,
 					a record set in 2012, when it also reported the production of its 200 millionth vehicle. By September 2023, total production reached 300 million vehicles."</p> </span>
 				</div>
 			</div>
@@ -61,40 +63,35 @@
 	<!-- Home END -->
 		
 	<!-- Gallery -->
-		<section id="gallery" style= "border: outset 10px grey; border-width: 0px 50px 10px; padding-bottom: 200px; position: relative; top: -170px;"> 
-			<div>
-				<h2 style="font-family: Gallery; font-size: 55px; text-align: center; position: relative;">Gallery</h2>
-				<div>
+		<section id="gallery"> 
+			<h1 class="head-main-gallery">Gallery</h1>
+			<div class="container">
+				<div class="flex-container">
+
 				<!-- Photos container 1 -->
-					<div>
-						<div>
-							<h1 style="font-family: Toyota; text-decoration-line: underline; font-size: 25px; text-align: center; position: relative; top: 40px;">Toyota Century</h1>
-							<img src="./images/thumb/Toyota_Century_1.jpg" alt="" width="240" height="300" style="position: relative; left: 410px; top: 30px; border: solid 3px black;" >
-							<img src="./images/thumb/Toyota_Century_2.jpeg" alt="" width="240" height="300" style="position: relative; left: 430px; top: 30px; border: solid 3px black;" >
-							<img src="./images/thumb/Toyota_Century_3.jpg" alt="" width="240" height="300" style="position: relative; left: 450px; top: 30px; border: solid 3px black;" >
+					<div class="photo-container-vertical">
+						<h3>Toyota Century</h3>
+						<img src="./images/thumb/Toyota_Century_1.jpg" alt=""  >
+						<img src="./images/thumb/Toyota_Century_2.jpeg" alt="">
+						<img src="./images/thumb/Toyota_Century_3.jpg" alt="">
 						</div>
-					</div>
 				<!-- Photos container 1 END -->
 				
 				<!-- Photos container 2 -->
-					<div>
-						<div>
-							<h1 style="font-family: Toyota; text-decoration-line: underline; text-align: center; position: relative; top: 100px;">Toyota Celica GT</h1>						
-							<img src="./images/thumb/Toyota_Celica_GT_1.jpg" alt="" width="300" height="200" style="position: relative; left: 320px; top: 90px; border: solid 3px black;" >
-							<img src="./images/thumb/Toyota_Celica_GT_2.jpg" alt="" width="300" height="200" style="position: relative; left: 340px; top: 90px; border: solid 3px black;" >
-							<img src="./images/thumb/Toyota_Celica_GT_3.jpg" alt="" width="300" height="200" style="position: relative; left: 360px; top: 90px; border: solid 3px black;" >
-						</div>
+					<div class="photo-container-horizontal-1">
+						<h3>Toyota Celica GT</h3>						
+						<img src="./images/thumb/Toyota_Celica_GT_1.jpg" alt="" >
+						<img src="./images/thumb/Toyota_Celica_GT_2.jpg" alt="" >
+						<img src="./images/thumb/Toyota_Celica_GT_3.jpg" alt="" >
 					</div>
 				<!-- Photos container 2 END -->
 				
 				<!-- Photos container 3 -->
-					<div>
-						<div>
-						<h1 style="font-family: Toyota; text-decoration-line: underline; text-align: center; position: relative; top: 200px;">Toyota Solara</h1>	
-							<img src="./images/thumb/Toyota_Solara_1.jpg" alt="" width="320" height="240" style="position: relative; left: 260px; top: 190px; border: solid 3px black;" >
-							<img src="./images/thumb/Toyota_Solara_2.jpg" alt="" width="320" height="240" style="position: relative; left: 310px; top: 190px; border: solid 3px black;" >
-							<img src="./images/thumb/Toyota_Solara_3.jpg" alt="" width="320" height="240" style="position: relative; left: 370px; top: 190px; border: solid 3px black;" >
-						</div>
+					<div class="photo-container-horizontal-2">
+						<h3>Toyota Solara</h3>	
+						<img src="./images/thumb/Toyota_Solara_1.jpg" alt="" >
+						<img src="./images/thumb/Toyota_Solara_2.jpg" alt="" >
+						<img src="./images/thumb/Toyota_Solara_3.jpg" alt="" >
 					</div>
 				<!-- Photos container 3 END -->
 				</div>
@@ -103,36 +100,36 @@
 	<!-- Gallery END -->
 	
 	<!-- Contact us -->
-		<section>
-		<div id="contact" >
-			<div>
-				<section>
-				<h1 style= "font-family: Toyota; font-size: 55px; text-align:center ; position: relative; padding-top 100px;"> Contact Us </h1>
-				<p style= "text-align: center; position: relative; left :30px; top: 50px;"> Please provide us with your contact information, <br>
-					We will reach out to you. </p>
-				<div>
-					<div>
-						<form style= "border font-size: 25px; text-align: center; position: relative; bottom-padding: 40px ; padding-right: 100px; top: 80px;" action="" method="get">
-							First name: <input style="position: relative; left: 40px; type="text" name="First_Name"> <br>
-							Last name:<input style="position: relative; left: 43px; type="text" name="Last_Name"> <br>
-							
-							Email: </style> <input style="position: relative; left: 56px; type="email" name="Email"> <br>
-							<div>
-								<input style="font-size: 25px; position: relative ; right: -250px ;bottom: 50px; padding-left: 10px; padding-right: 10px" type="Submit" value="Submit">
-							</div>
-						</form>
+		<section id="contact">
+			<div class="container-fluid">
+					<h1 class="head-main-contact"> Contact Us </h1>
+					<div class="reservation">
+						<h2>Reserve your spot now</h2>
+					<p class="rsvp-text">
+						Please provide us with your contact information
+					</p>
+						<div class="form-rsvp">
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Email Address">
+								<input class="rsvp" type="text" value="" placeholder="Phone Number">
+								<div class="form-spacer">
+								</div>
+								<div class="submit">
+									<label class="terms">Terms and Conditions</label>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
 					</div>
-					</section>
 				</div>
 			</div>
 		</section>
 	<!-- Contact us END -->
-	
-	
-	
-		<footer>
-		<p style=" text-align: center; position: relative; top: 80px;" > Author: ExjeetzZ</p>
-		</footer>
+		<div id="footer">
+			<p> Author: ExjeetzZ</p>
+		</div>
 		
 	</body>
 </html>
