@@ -1,0 +1,6 @@
+/* General styles for badges */ 
+	 
+.larger-badge {
+	font-size: 1.1em; /* Adjust font size */
+	padding: 0.5em 0.8em; /* Adjust padding */
+}
