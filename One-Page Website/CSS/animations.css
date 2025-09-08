@@ -41,9 +41,15 @@
 
 
 .photo-container-vertical {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     margin: auto;
     position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-left: 125px;
+    color: rgba(0, 0, 0, 0);
 }
 
 .photo-container-horizontal-1 {
@@ -60,11 +66,11 @@
 
 .photo-container-vertical img {
     max-width: 100%;
-    width: 240px;
-    height: 300px;
+    width: auto;
+    height: 360px;
     position: relative; 
     display: inline-block;
-    margin-right: 10px;
+    justify-content: center;
     margin-left: 10px;
     border: #ffffff 2px solid;
     border-radius: 5px;
@@ -138,3 +144,19 @@
     transform: scale(1.1);
 }
 
+
+/*----------------------------------------------
+    MODAL ANIMATION
+----------------------------------------------*/
+
+.modal {
+    transition: opacity .5s ease;
+}
+
+.modal.show {
+    opacity: 1;
+}
+
+.modal.hide {
+    opacity: 0;
+}
